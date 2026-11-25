@@ -1,0 +1,17 @@
+# Application-layer packet analysis
+
+1. Open Wireshark and select the active network interface.
+2. Start packet capture.
+3. Generate DNS traffic: nslookup example.com
+4. Generate an HTTP request only to a test site that supports plain HTTP, or use a local HTTP test server.
+5. Stop capture and apply filters:
+   dns
+   http
+   tcp
+6. Inspect source/destination addresses, ports, protocol, packet length and application-layer fields.
+7. Save the capture as a .pcapng file.
+
+Note: Most public websites use HTTPS. The http filter will not expose encrypted HTTPS application data.
+
+# output.txt
+Write down packet numbers, source/destination IPs, ports, protocol and observations from your own capture.
