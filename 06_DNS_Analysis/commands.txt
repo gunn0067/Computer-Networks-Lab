@@ -1,0 +1,25 @@
+# DNS analysis commands
+
+Windows Command Prompt:
+ipconfig /displaydns
+ipconfig /flushdns
+nslookup example.com
+nslookup -type=MX example.com
+nslookup -type=NS example.com
+
+Linux:
+dig example.com
+dig example.com A
+dig example.com MX
+dig example.com NS
+dig +trace example.com
+
+Wireshark:
+1. Start a capture on the active network interface.
+2. Run one or more DNS lookup commands.
+3. Apply display filter: dns
+4. Inspect query name, query type, response, answer records and TTL.
+5. Save the capture if required.
+
+# output.txt
+Record the observed DNS query, response IP address, record type and TTL from your own system. Results vary by resolver and time.
