@@ -1,0 +1,14 @@
+DNS Analysis — Observation Sheet
+
+Date/time:
+Operating system:
+Command used:
+DNS query name:
+Query type:
+DNS server/resolver:
+Response / IP address:
+TTL:
+Wireshark packet number:
+Observations:
+
+Fill this file with results captured on your own system. DNS responses vary.
