@@ -1,0 +1,14 @@
+Windows file-sharing checklist
+
+1. Connect both computers to the same trusted network.
+2. Set the network profile to Private.
+3. Open Settings > Network & Internet > Advanced sharing settings.
+4. Enable Network discovery.
+5. Enable File and printer sharing.
+6. Right-click the folder to share and open Properties > Sharing > Advanced Sharing.
+7. Select Share this folder and configure permissions for the intended users.
+8. Find the host computer name using: hostname
+9. From the other computer, open File Explorer and enter: \\COMPUTER-NAME\SHARE-NAME
+10. If prompted, sign in with an account permitted to access the share.
+
+Security: Share only with trusted users, use password-protected access, and avoid enabling guest access on public networks.
